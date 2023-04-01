@@ -5,10 +5,11 @@
 package factorymothod.button;
 
 /**
- *
+ * reference https://refactoring.guru/design-patterns/factory-method
  * @author tongcongminh
  */
 public class Application {
+    
     
     private static Dialog dialog;
     
