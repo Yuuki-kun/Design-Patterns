@@ -10,7 +10,7 @@ package structural.proxy.ytb;
  */
 public class Application {
     public static void main(String[] args) {
-        ThirdPartyYoutubeClass aYouTubeService = new ThirdPartyYoutubeClass();
+        ThirdPartyYoutubeLib aYouTubeService = new ThirdPartyYoutubeClass();
         CachedYoutubeClass aYouTubeProxy = new CachedYoutubeClass(aYouTubeService);
         
         YouTubeManager ytm = new YouTubeManager(aYouTubeProxy);
